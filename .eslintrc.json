@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "parser": "@babel/eslint-parser",
+  "plugins": ["react", "import"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "no-unused-vars": [
+      "off"
+      // {
+      //   "vars": "all",
+      //   "args": "after-used",
+      //   "ignoreRestSiblings": false
+      // }
+    ]
+  }
+}
